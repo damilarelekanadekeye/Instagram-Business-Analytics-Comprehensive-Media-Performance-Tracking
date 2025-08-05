@@ -119,8 +119,8 @@ class InstagramGraphAPI:
 
 def setup_instagram_api():
     """Replace with your actual credentials."""
-    ACCESS_TOKEN = "EAAJsRK4bgtYBO2HZCuISvclNwYOoaZCCKZC0wiLGtyFhSxilN1hJShIUlRKs2qQVj0Mi8WK9jcImXNG6XKqOUWYrQHnXaM48G0DoWbgrA6id8E9dGVMQWe4oVt2Tnt4wE0XTPefsKH9V26dH4qcu9hKobsip7dOUcpHZAiklDSBqZBn41pqtcqGlbem2EQsxR"
-    INSTAGRAM_BUSINESS_ACCOUNT_ID = "17841475434985932"
+    ACCESS_TOKEN = "EAAJsRK4bgtYBO2HZCuISvcl**************************GVMQWe4oVt2Tnt4wE0XTPefsKH9V26dH4qcu9hKobsip7dOUcpHZAiklDSBqZBn41pqtcqGlbem2EQsxR"
+    INSTAGRAM_BUSINESS_ACCOUNT_ID = "178414754******932"
     
     if not ACCESS_TOKEN or not INSTAGRAM_BUSINESS_ACCOUNT_ID:
         print("!!! ERROR: Credentials are not set in setup_instagram_api() !!!")
@@ -179,4 +179,5 @@ if __name__ == "__main__":
         else:
             print("\nCould not find any media to analyze.")
     else:
+
         print("\nAPI initialization failed. Please check your credentials.")
